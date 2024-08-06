@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/bi_exclamation-circle-fill.png" type="image/x-icon">
+</head>
+<body class="Estrutura">
+    <header class="logo__Alura">
+        <img src="assets/Logo.png" alt="logo da alura">
+    </header>
+    <main class="Estrutura__Conteudo">
+        
+        <div class="Estrutura__Conteudo__inicial">
+
+            <h1 class="Estrutura__Conteudo__inicial__titulo">Digite seu texto</h1>
+            <textarea id="input_text" class="Estrutura__Conteudo__Texto__area__inicial" name="textoinicial" id="textoinicial" ></textarea>
+            <p class="Estrutura__Conteudo__inicial__paragrafo"><img src="assets/bi_exclamation-circle-fill.png" alt="exclamacao">Apenas letras minúsculas e sem acento.</p>
+            
+            <div class="Estrutura__Conteudo__botoes">
+                <button  onclick="encriptitador()" class="Estrutura__Conteudo__inicial__Criptografar">Criptografar</button>
+                <button  onclick="descriptitador()" class="Estrutura__Conteudo__inicial__Descriptografar">Descriptografar</button>
+            </div>
+
+        </div>
+            <div id="output_text" class="Estrutura__Conteudo__Imagem__Aviso">
+                <img src="assets/homen com lupa.png" alt="homen lupa">
+                <div>
+                    <h1 class="Estrutura__Conteudo__Imagem__Aviso__Texto">Nenhuma mensagem encontrada</h1>
+                    <p class="Estrutura__Conteudo__Imagem__Aviso__Paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+            </div>
+            
+    </main>
+    <footer></footer>
+    <script src="apps.js"></script>
+</body>
+</html>
